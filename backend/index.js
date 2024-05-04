@@ -19,7 +19,7 @@ app.use(errorHandler);
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["www.astronomy.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
