@@ -19,7 +19,7 @@ app.use(errorHandler);
 
 app.use(
   cors({
-    origin: ["www.astronomy.com"],
+    origin: ["nasaapi-it21386022s-projects.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
