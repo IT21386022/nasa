@@ -62,8 +62,7 @@ export default function SignUp() {
     }
 
     try {
-      const response = await axios.post('nasaapi-it21386022s-projects.vercel.app
-/user/register', formData);
+      const response = await axios.post('www.astronomynasa.com/user/register', formData);
       console.log(response.data);
       setAlertMessage({ type: 'success', message: 'Successfully signed up!' });
       navigate('/');
